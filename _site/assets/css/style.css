@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Waiting+for+the+Sunrise&display=swap");
+h1, h2, li, p { font-family: 'IM Fell English SC', serif; }
+
+h3, h4 { font-family: 'Waiting for the Sunrise', cursive; }
+
+h1 { font-size: 5rem; font-style: italic; }
+
+h2 { font-size: 3.5rem; }
+
+h3 { font-size: 3rem; font-weight: 900; }
+
+h4 { font-size: 2.5rem; margin-top: 3rem; }
+
+li, p { font-size: 1.6rem; opacity: 0.7; }
+
+ul { list-style: none; }
+
+.logo { margin: 0.5rem 0; }
+
+.social-icon { transition: 0.2s; text-decoration: none; margin-right: 10px; margin-left: 10px; }
+
+@media (min-width: 768px) { .social-icon { margin-right: 0px; margin-left: 20px; } }
+.social-icon:nth-child(1):hover { -webkit-filter: drop-shadow(0 0 0.75rem #181717); filter: drop-shadow(0 0 0.75rem #181717); text-decoration: none; }
+
+.social-icon:nth-child(2):hover { -webkit-filter: drop-shadow(0 0 0.75rem #0A66C2); filter: drop-shadow(0 0 0.75rem #0A66C2); text-decoration: none; }
+
+.social-icon:nth-child(3):hover { -webkit-filter: drop-shadow(0 0 0.75rem #F58025); filter: drop-shadow(0 0 0.75rem #F58025); text-decoration: none; }
+
+.social-icon:nth-child(4):hover { -webkit-filter: drop-shadow(0 0 0.75rem #1DA1F2); filter: drop-shadow(0 0 0.75rem #1DA1F2); text-decoration: none; }
+
+.social-icon:nth-child(5):hover { -webkit-filter: drop-shadow(0 0 0.75rem #A435F0); filter: drop-shadow(0 0 0.75rem #A435F0); text-decoration: none; }
